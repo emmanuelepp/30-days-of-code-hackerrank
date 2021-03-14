@@ -5,6 +5,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch solution",
+      "request": "launch",
+      "mainClass": "solution",
+      "projectName": "30 days-of-code-hackerrank_a3041d16"
+    },
+    {
+      "type": "java",
+      "name": "Launch HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "30 days-of-code-hackerrank_a3041d16"
+    },
+    {
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
