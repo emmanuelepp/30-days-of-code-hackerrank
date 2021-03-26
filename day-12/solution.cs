@@ -1,16 +1,17 @@
 
 //Ctor
-public Student(string firstName, string lastName, int id, int[] scores):base()
-    {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.id = id;
-    this.testScores = scores;
-}
+
+// public Student (string firstName, string lastName, int id, int[] scores)
+// {
+//     this.firstName = firstName;
+//     this.lastName = lastName;
+//     this.id = id;
+//     this.testScores = scores;
+// }
 
 
 //Calculate method
-public char Calculate()
+char Calculate()
 {
     int ave = 0;
     int sum = 0;
@@ -50,5 +51,4 @@ public char Calculate()
     }
 
     return '0';
-}
 }
