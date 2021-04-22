@@ -9,10 +9,8 @@ class MyBook : Book
 
             public override void Display() 
             {
-                int price = 0;
                 Console.WriteLine("Title: " + title);
                 Console.WriteLine("Author: " + author);
                 Console.WriteLine("Price: " + price);
-
             }
         }
